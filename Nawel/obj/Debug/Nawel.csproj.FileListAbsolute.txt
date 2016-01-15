@@ -44,3 +44,7 @@ c:\users\bachir\documents\visual studio 2015\Projects\Nawel\Nawel\bin\System.Web
 c:\users\bachir\documents\visual studio 2015\Projects\Nawel\Nawel\obj\Debug\Nawel.csprojResolveAssemblyReference.cache
 c:\users\bachir\documents\visual studio 2015\Projects\Nawel\Nawel\obj\Debug\Nawel.dll
 c:\users\bachir\documents\visual studio 2015\Projects\Nawel\Nawel\obj\Debug\Nawel.pdb
+C:\Users\Bachir\Documents\Visual Studio 2015\Projects\Nawel\Nawel\bin\EntityFramework.dll
+C:\Users\Bachir\Documents\Visual Studio 2015\Projects\Nawel\Nawel\bin\EntityFramework.SqlServer.dll
+C:\Users\Bachir\Documents\Visual Studio 2015\Projects\Nawel\Nawel\bin\EntityFramework.xml
+C:\Users\Bachir\Documents\Visual Studio 2015\Projects\Nawel\Nawel\bin\EntityFramework.SqlServer.xml

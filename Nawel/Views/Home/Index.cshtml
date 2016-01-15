@@ -3,5 +3,7 @@
     ViewBag.Title = "View";
 }
 
-<h2> L'index de la vue du site de nawel</h2>
+<h2> Bonjour @ViewData["nom"]</h2>
+<!-- on caste la valeur ViewData["dateNow"] pour transformé en type DateTime -->
+<h2> Aujourd'hui c'est le  @(((DateTime)ViewData["dateNow"]).ToString("yyyy"))</h2>
 

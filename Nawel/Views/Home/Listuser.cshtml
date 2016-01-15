@@ -1,0 +1,16 @@
+﻿@model Nawel.ViewModels.ViewModelListUser
+@{
+    ViewBag.Title = "Listuser";
+}
+
+@{ 
+    foreach(var user in Model.Users )
+    {
+      <p> numéro =  @user.Num </p>
+    <p> numéro =  @user.Username </p>
+
+    }
+
+
+}
+

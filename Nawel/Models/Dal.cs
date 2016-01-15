@@ -3,22 +3,31 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-public class Dal : IDal
+namespace Nawel.Models
 {
-    private BddContext bdd;
-
-    public Dal()
+    public class Dal : IDal
     {
-        bdd = new BddContext();
-    }
+        private BddContext bdd;
 
-    public void Dispose()
-    {
-        bdd.Dispose();
-    }
+        public Dal()
+        {
+            bdd = new BddContext();
+        }
 
-    public List<User> getAllUsers()
-    {
-        return bdd.Users.ToList();
+        public void createUser(string num, string username)
+        {
+            bdd.Users.Add(new User { Num = num, Username = username });
+            bdd.SaveChanges();
+        }
+
+        public void Dispose()
+        {
+            bdd.Dispose();
+        }
+
+        public List<User> getAllUsers()
+        {
+            return bdd.Users.ToList();
+        }
     }
 }
